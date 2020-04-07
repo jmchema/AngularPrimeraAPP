@@ -1,0 +1,20 @@
+[
+  {
+  "id": 1,
+  "titulo": "Te veré bajo el hielo",
+  "autor": "Robert Bryndza",
+  "img": "assets/jn.jpg"
+},
+{
+  "id": 2,
+  "titulo": "Dime quién soy",
+  "autor": "Julia Navarro",
+  "img": "assets/jn.jpg"
+},
+{
+  "id": 3,
+  "titulo": "El día que se perdió la cordura",
+  "autor": "Javier Castillo",
+  "img": "assets/jn.jpg"
+}
+]

@@ -1,0 +1,21 @@
+<main role="main" class="container">
+
+
+<div class="loader" *ngIf="cargando"></div>
+<div *ngIf="errorHttp">Hay un error con la carga del archivo</div>
+
+
+<div class="card-deck">
+<div *ngFor="let libro of libros" class="card" style="width: 18rem;">
+  <img src="{{libro.img}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{libro.titulo}}</h5>
+    <p class="card-text">{{libro.autor}}</p>
+    <a (click)="agregarLibro(libro)"
+    [routerLink]="['/informacion', libro.id]" class="btn btn-primary">Ver más</a>
+  </div>
+</div>
+</div>
+</main>
+
+
